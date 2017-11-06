@@ -4,6 +4,7 @@ alert("hello, world!");
 
 /*
 *
+* odcinki od 7 do 10 -> zabawy w konsoli
 * komentarz
 *
 * */
