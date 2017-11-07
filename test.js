@@ -1,10 +1,8 @@
-alert("hello, world!");
+var cos = true;
+var num = 10;
 
-//alert("hello, again!");
-
-/*
-*
-* odcinki od 7 do 10 -> zabawy w konsoli
-* komentarz
-*
-* */
+if(cos) {
+    document.write(" tak lubisz mięso....");
+} else {
+    document.write("nie lubisz mięsa ... ... ...")
+}
