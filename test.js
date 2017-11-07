@@ -1,5 +1,5 @@
 var cos = true;
-var num = 10;
+//var num = 10;
 
 if(cos) {
     document.write(" tak lubisz mięso....");
