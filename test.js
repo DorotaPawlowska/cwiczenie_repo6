@@ -1,8 +1,11 @@
-var cos = true;
-//var num = 10;
+var wiek = 44;
 
-if(cos) {
-    document.write(" tak lubisz mięso....");
-} else {
-    document.write("nie lubisz mięsa ... ... ...")
+if(wiek > 30){
+    document.write("jesteś po 30tce.");
+}else if(wiek > 20){
+    document.write("jesteś po 20tce.");
+}else if(wiek > 10){
+    document.write("jesteś po 10tce.");
+}else{
+    document.write("nie jesteś nawet po 10tce.");
 }
