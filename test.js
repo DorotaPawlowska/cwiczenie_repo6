@@ -1,8 +1,15 @@
-var linki = document.getElementsByTagName("a");
+for (var i = 0; i < 10; i++ ){
 
 
-for (var i = 1; i <= linki.length; i++ ){
-    console.log("to jest link " + i);
+    if(i === 5 || i === 3){
+        continue;
+    }
+    console.log(i);
+
+    if(i === 7){
+        break;
+    }
+
 }
 
-document.write("wszystkie linki z pętli");
+console.log("break z pętli");
