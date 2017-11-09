@@ -1,8 +1,8 @@
-var wiek = 5;
+var linki = document.getElementsByTagName("a");
 
-while ( wiek < 10){
-    console.log("wiek jest mniejszy niż 10");
-    wiek++;
+
+for ( i = 1; i <= linki.length; i++ ){
+    console.log("to jest link " + i);
 }
 
-document.write("teraz wiek jest większy niż 10")
+document.write("wszystkie linki z pętli")
