@@ -1,8 +1,8 @@
 var linki = document.getElementsByTagName("a");
 
 
-for ( i = 1; i <= linki.length; i++ ){
+for (var i = 1; i <= linki.length; i++ ){
     console.log("to jest link " + i);
 }
 
-document.write("wszystkie linki z pętli")
+document.write("wszystkie linki z pętli");
