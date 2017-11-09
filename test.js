@@ -1,7 +1,6 @@
-
-
+var srednia = 0;
 function Srednia( a, b){
-    var srednia = (a + b )/2;//zmienna lokalna
+    srednia = (a + b )/2;//zmienna globalna
     console.log(srednia);
     return srednia;
 }
