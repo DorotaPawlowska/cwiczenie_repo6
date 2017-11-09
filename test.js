@@ -1,15 +1,7 @@
-for (var i = 0; i < 10; i++ ){
+var linki = document.getElementsByTagName("a");
 
+for(var i = 0; i < linki.length; i++){
 
-    if(i === 5 || i === 3){
-        continue;
-    }
-    console.log(i);
-
-    if(i === 7){
-        break;
-    }
+    linki[i].className = "link-" + i;
 
 }
-
-console.log("break z pętli");
