@@ -1,11 +1,8 @@
-var wiek = 26;
+var wiek = 5;
 
-
-if(wiek < 18 || wiek > 30 || wiek === 25){
-    document.write("you aint coming!");
-}else {
-    document.write("you can come, you cool dude !!");
+while ( wiek < 10){
+    console.log("wiek jest mniejszy niż 10");
+    wiek++;
 }
 
-//&& i
-//|| lub
+document.write("teraz wiek jest większy niż 10")
