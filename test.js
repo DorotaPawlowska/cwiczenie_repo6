@@ -1,11 +1,28 @@
 //-----------------------------------------------------------
 //#epizod 28 kursu
+var mojaTab = new Array();
+mojaTab[0] = 8;
+mojaTab[1] = "hello";
 
+var mojSam = new Object();
+mojSam.maxSpped = 50;
+mojSam.driver = "Shaun";
+console.log(mojSam.driver);
+mojSam.drive = function () { console.log("jedziemy");};
+mojSam.drive();
 
+var mojaTab2 = [true, 15, "hi"];
 
+var mojSam2 = {
+    maxSpeed: 70,
+    driver: "ktoś",
+    drive: function (speed, time) {
+        console.log("przejechaliśmy odległość:  " + speed*time + " km");
+    }
+};
 
-
-
+console.log(mojSam2.maxSpeed);
+mojSam2.drive(50, 3);
 
 //-----------------------------------------------------------
 /*
