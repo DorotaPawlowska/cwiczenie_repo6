@@ -1,15 +1,22 @@
+var str = "hello, world";
+console.log(str);
+var str2 = str.slice(2,9);
+console.log(str2);
+var str3 = str.slice(2);
+console.log(str3);
+var tags = "tag, mięso, salami, kiełbasa, szynka";
+console.log(tags);
+var tagowTablica = tags.split(",");
+console.log(tagowTablica);
+
+
+/*
 var Stringi1 = "abc";
 var Stringi2 = "Bcd";
 
 console.log(Stringi1.toLowerCase() === Stringi2.toLowerCase());
 console.log(Stringi1 < Stringi2);
-
-
-
-
-
-
-
+*/
 
 /*
 console.log(Stringi.toUpperCase());
