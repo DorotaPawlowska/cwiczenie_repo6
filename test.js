@@ -1,16 +1,36 @@
 //-----------------------------------------------------------
-
 //#epizod 29 kursu
 
+var Car = function (maxSpeed, driver) {
+    this.maxSpeed = maxSpeed;
+    this.driver = driver;
+    this.drive = function (speed, time) {
+        console.log("przejechaliśmy odległość:  " + speed*time + " km");
+    };
+    this.logDriver = function () {
+        console.log("driver name is " + this.driver);
+    };
+};
+
+var Samo = new Car(70, "ninja");
+var Samo2 = new Car(40, "lala");
+var Samo3 = new Car(20, "jaja");
+var Samo4 = new Car(10, "lulu");
+
+Samo.drive(23,5);
+Samo2.drive(45,5);
+Samo3.logDriver();
+Samo4.logDriver();
+
+//-----------------------------------------------------------
+//#epizod 29 kursu
+/*
 var mojSam2 = {
     maxSpeed: 70,
     driver: "ktoś",
     drive: function (speed, time) {
         console.log("przejechaliśmy odległość:  " + speed*time + " km");
     },
-    /*test: function () {
-        console.log(this);
-    }*/
     logDriver: function () {
         console.log("driver name is " + this.driver);
     }
@@ -31,7 +51,7 @@ mojSam2.logDriver();
 mojSam3.test();
 console.log(mojSam2.maxSpeed);
 mojSam2.drive(50, 3);
-
+*/
 //-----------------------------------------------------------
 /*
 //#epizod 28 kursu
