@@ -1,4 +1,25 @@
+//-----------------------------------------------------------
+//#epizod 28 kursu
 
+
+
+
+
+
+
+//-----------------------------------------------------------
+/*
+//#epizod 27 kursu
+var mojString = new String();
+mojString = "hello";
+console.log(mojString.length);
+console.log(mojString.toUpperCase());
+var mojString2 = "hello there";
+console.log(mojString2.toUpperCase());
+*/
+
+//-----------------------------------------------------------
+/*
 //#epizod 26 kursu
 var mojaTablica = [];
 mojaTablica[0] = 25;
@@ -24,9 +45,7 @@ console.log(mojaTablica2.length);
 console.log(mojaTablica2.sort());
 console.log(mojaTablica.sort());
 console.log(mojaTablica2.reverse());
-
-
-
+*/
 
 //-----------------------------------------------------------
 //epizod #25 kursu
