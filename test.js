@@ -1,4 +1,39 @@
 //-----------------------------------------------------------
+
+//#epizod 29 kursu
+
+var mojSam2 = {
+    maxSpeed: 70,
+    driver: "ktoś",
+    drive: function (speed, time) {
+        console.log("przejechaliśmy odległość:  " + speed*time + " km");
+    },
+    /*test: function () {
+        console.log(this);
+    }*/
+    logDriver: function () {
+        console.log("driver name is " + this.driver);
+    }
+};
+
+var mojSam3 = {
+    maxSpeed: 70,
+    driver: "JJJJJJa",
+    drive: function (speed, time) {
+        console.log("przejechaliśmy odległość:  " + speed*time + " km");
+    },
+    test: function () {
+        console.log(this);
+    }
+};
+
+mojSam2.logDriver();
+mojSam3.test();
+console.log(mojSam2.maxSpeed);
+mojSam2.drive(50, 3);
+
+//-----------------------------------------------------------
+/*
 //#epizod 28 kursu
 var mojaTab = new Array();
 mojaTab[0] = 8;
@@ -23,6 +58,7 @@ var mojSam2 = {
 
 console.log(mojSam2.maxSpeed);
 mojSam2.drive(50, 3);
+*/
 
 //-----------------------------------------------------------
 /*
