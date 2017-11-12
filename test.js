@@ -1,3 +1,17 @@
+//#epizod 34 kursu
+/*
+var myTitle = document.getElementById("ddd");
+console.log(myTitle);
+console.log(myTitle.textContent);
+myTitle.textContent = "gotowi do nauki";
+*/
+
+/*
+var myBody = document.getElementsByTagName("body");
+myBody[0].innerHTML;
+myBody[0].innerHTML = "<p>paragraf</p>";
+*/
+
 /*
 //#epizod 33 kursu
 
