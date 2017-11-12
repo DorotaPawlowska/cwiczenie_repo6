@@ -1,8 +1,13 @@
+/*
+//#epizod 33 kursu
 
+var myContent = document.getElementsByClassName("content");
 
+document.getElementsByTagName();
+*/
 
-
-
+//-----------------------------------------------------------
+/*
 //-----------------------------------------------------------
 //#epizod 31 kursu
 var urodziny = new Date(1975, 0, 5, 10, 10, 59);
@@ -39,7 +44,7 @@ var mojBylyDzien = new Date(1545, 11, 2, 10, 23, 59);
 var mojPrzyszlyDzien = new Date(2545, 0, 11, 11, 23, 34);
 console.log(mojBylyDzien);
 console.log(mojPrzyszlyDzien);
-
+*/
 
 //-----------------------------------------------------------
 //#epizod 30 kursu
