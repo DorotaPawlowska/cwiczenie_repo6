@@ -1,6 +1,49 @@
-//-----------------------------------------------------------
-//#epizod 29 kursu
 
+
+
+
+
+//-----------------------------------------------------------
+//#epizod 31 kursu
+var urodziny = new Date(1975, 0, 5, 10, 10, 59);
+var urodziny2 = new Date(1975, 0, 5, 10, 10, 59);
+//miesiac 0-11
+console.log(urodziny.getMonth());
+//rok yyyy
+console.log(urodziny.getFullYear());
+//dzien miesiąca 1-31
+console.log(urodziny.getDate());
+//dzień tygodnia 0-6
+console.log(urodziny.getDay());
+//godzina 0-23
+console.log(urodziny.getHours());
+//milisekundy od 1 stycznia 1970 roku
+console.log(urodziny.getTime());
+
+if(urodziny == urodziny2){
+    console.log("urodziny są równe")
+}else{
+    console.log("urodziny nie są równe")
+}
+
+if(urodziny.getTime() == urodziny2.getTime()){
+    console.log("urodziny są równe")
+}else{
+    console.log("urodziny nie są równe")
+}
+//-------------------------------------------------------
+var mojDzien = new Date();
+console.log(mojDzien);
+
+var mojBylyDzien = new Date(1545, 11, 2, 10, 23, 59);
+var mojPrzyszlyDzien = new Date(2545, 0, 11, 11, 23, 34);
+console.log(mojBylyDzien);
+console.log(mojPrzyszlyDzien);
+
+
+//-----------------------------------------------------------
+//#epizod 30 kursu
+/*
 var Car = function (maxSpeed, driver) {
     this.maxSpeed = maxSpeed;
     this.driver = driver;
@@ -21,7 +64,7 @@ Samo.drive(23,5);
 Samo2.drive(45,5);
 Samo3.logDriver();
 Samo4.logDriver();
-
+*/
 //-----------------------------------------------------------
 //#epizod 29 kursu
 /*
