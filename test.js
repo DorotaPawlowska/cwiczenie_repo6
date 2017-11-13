@@ -1,3 +1,4 @@
+//#epizod 40 kursu
 
 
 
@@ -5,7 +6,7 @@
 
 //-----------------------------------------------------------
 /*
-//#epizod 38 kursu
+//#epizod 39 kursu
 
 var title = document.getElementById("diw");
 title.onclick = function () {
@@ -18,7 +19,7 @@ addEventListener();
 */
 //-----------------------------------------------------------
 /*
-//#epizod 37 kursu
+//#epizod 38 kursu
 
 var parent = document.getElementById("diw").getElementsByTagName("ul");
 
