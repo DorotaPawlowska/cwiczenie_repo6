@@ -1,3 +1,35 @@
+//-----------------------------------------------------------
+
+//#epizod 37 kursu
+
+
+
+
+
+
+
+
+
+
+
+//-----------------------------------------------------------
+/*
+//#epizod 37 kursu
+// ??????????????????????????????????????
+
+var newUl = document.createElement("ul");
+var newLi = document.createElement("li");
+var newA = document.createElement("a");
+
+var diw = document.getElementById("diw").getElementsByTagName("ul")[0];
+diw.appendChild(newUl);
+newUl.appendChild(newLi);
+newLi.appendChild(newA);
+
+newA.innerHTML = "cztery";
+diw.insertBefore(newLi, diw.getElementsByTagName("li")[0]);
+*/
+
 /*
 //-----------------------------------------------------------
 //#epizod 36 kursu
