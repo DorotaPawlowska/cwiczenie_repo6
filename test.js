@@ -1,17 +1,21 @@
-//-----------------------------------------------------------
 
+
+
+
+
+//-----------------------------------------------------------
+/*
 //#epizod 38 kursu
 
-
-
-
-
-
-
-
-
-
-
+var title = document.getElementById("diw");
+title.onclick = function () {
+  alert("kliknąłeś mnie");
+};//funkcja anonimowa
+title.onmouseover = function () {
+    alert("you hoverd your mouse over me")
+};
+addEventListener();
+*/
 //-----------------------------------------------------------
 /*
 //#epizod 37 kursu
