@@ -1,3 +1,32 @@
+//-----------------------------------------------------------
+
+//#epizod 41 kursu
+
+function setUpEvents() {
+
+    var content = document.getElementById("content");
+    var button = document.getElementById("show-more");
+
+    button.onclick = function () {
+        if (content.className == "open") {
+            // zmniejszam
+            content.className = "";
+            button.innerHTML = "Show More";
+        } else {
+            //rozszerzam
+            content.className = "open";
+            button.innerHTML = "Show Less";
+        }
+    };
+}
+
+window.onload = function () {
+    setUpEvents();
+};
+
+
+//-----------------------------------------------------------
+/*
 //#epizod 40 kursu
 
 var content = document.getElementById("content");
@@ -14,8 +43,7 @@ button.onclick = function () {
         button.innerHTML = "Show Less";
     }
 };
-
-
+*/
 
 //-----------------------------------------------------------
 /*
