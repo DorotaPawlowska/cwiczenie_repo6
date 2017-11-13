@@ -1,5 +1,20 @@
 //-----------------------------------------------------------
+/*
+//#epizod 45 kursu
 
+var myPara = document.getElementById("content").getElementsByTagName("p")[5];
+var myPara2 = $("#content p:last-child");
+
+var myPara2 = $("#content p:last-child");
+myPara2.addClass("test");
+myPara2.removeClass("test");
+myPara2.fadeOut();
+myPara2.fadeIn();
+myPara2.css({position: "relative", color: "red"});
+myPara2.animate({left: "50px"});
+*/
+//-----------------------------------------------------------
+/*
 //#epizod 44 kursu
 
 var myForm = document.forms.myForm;
@@ -14,7 +29,7 @@ myForm.onsubmit = function () {
         return true;
     }
 };
-
+*/
 
 //-----------------------------------------------------------
 /*
