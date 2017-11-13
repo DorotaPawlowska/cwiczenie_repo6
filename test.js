@@ -1,6 +1,20 @@
 
+//-----------------------------------------------------------
+/*
+//#epizod 43 kursu
 
+var myFrom = document.forms.myForm;
 
+myFrom.name.value;
+myFrom.colour.value;
+myFrom.name.onfocus = function(){
+    myFrom.name.style.border = "4px solid pink";
+};
+
+myFrom.name.onblur = function(){
+    myFrom.name.style.border = "none";
+};
+*/
 //-----------------------------------------------------------
 /*
 //#epizod 42 kursu

@@ -7,12 +7,21 @@
 
     </head>
     <body>
-        <div id="message">
-            <p>ważne obwieszczenie</p>
-            <p>słońce</p>
-        </div>
-
-        <div id="colour-change"></div>
+        <form id="my-form" name="myForm" action="#">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name"><br/>
+            <label>Hobbies: </label><br/>
+            <input type="checkbox" name="biking" id="biking" value="biking">biking<br/>
+            <input type="checkbox" name="skiing" id="skiing" value="skiing">skiing<br/>
+            <input type="checkbox" name="driving" id="driving" value="driving">driving<br/>
+            <label for="colour">ulub kolory: </label>
+            <select id="colour">
+                <option>Red</option>
+                <option>Blue</option>
+                <option>Green</option>
+            </select>
+            <input type="submit" id="submit" name="submit" value="Submit">
+        </form>
 
         <script src="test.js"></script>
 
