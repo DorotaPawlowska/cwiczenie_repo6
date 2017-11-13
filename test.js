@@ -1,17 +1,29 @@
 //-----------------------------------------------------------
 
+//#epizod 38 kursu
+
+
+
+
+
+
+
+
+
+
+
+//-----------------------------------------------------------
+/*
 //#epizod 37 kursu
 
+var parent = document.getElementById("diw").getElementsByTagName("ul");
 
+var child = parent.getElementsByTagName("li")[0];
 
+var remo = parent.removeChild(child);
+parent.appendChild(remo);
 
-
-
-
-
-
-
-
+*/
 //-----------------------------------------------------------
 /*
 //#epizod 37 kursu
