@@ -1,5 +1,43 @@
-//-----------------------------------------------------------
 
+
+
+//-----------------------------------------------------------
+/*
+//#epizod 42 kursu
+
+var colorCh = document.getElementById("colour-change");
+
+var kolory = ["red", "blue", "green", "pink"];
+var licznik = 0;
+
+function zmianaKoloru() {
+    if(licznik >= kolory.length){
+        licznik = 0;
+    }
+    colorCh.style.background = kolory[licznik];
+    licznik++;
+}
+
+var czasomierz = setInterval(zmianaKoloru, 3000);
+
+colorCh.onclick = function () {
+    clearInterval(czasomierz);
+    colorCh.innerHTML = "timerStop";
+}
+*/
+
+/*
+var myMessage = document.getElementById("message");
+
+function showMessage() {
+    myMessage.className = "show";
+}
+
+setTimeout(showMessage, 3000);
+*/
+
+//-----------------------------------------------------------
+/*
 //#epizod 41 kursu
 
 function setUpEvents() {
@@ -23,7 +61,7 @@ function setUpEvents() {
 window.onload = function () {
     setUpEvents();
 };
-
+*/
 
 //-----------------------------------------------------------
 /*
