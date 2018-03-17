@@ -1,4 +1,27 @@
+var h2 = document.querySelector('#book-list h2');
 
+console.log(h2);
+
+h2.addEventListener('click', function (event) {
+    console.log(event.target);
+    console.log(event);
+});
+
+var btns = document.querySelectorAll('#book-list .delete');
+
+Array.from(btns).forEach(function (btn) {
+    btn.addEventListener('click', function (event) {
+       const li = event.target.parentElement;
+       li.parentNode.removeChild(li);
+    });
+});
+
+const link = document.querySelector('#page-banner a');
+
+link.addEventListener('click', function (e) {
+    e.preventDefault();
+    console.log('navigation to ', e.target.textContent, ' was prevented');
+})
 
 /*
 const bookList = document.querySelector('#book-list');
