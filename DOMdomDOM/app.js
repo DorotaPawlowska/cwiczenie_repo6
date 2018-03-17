@@ -1,3 +1,16 @@
+const list = document.querySelector('#book-list ul');
+
+// delete books
+list.addEventListener('click', function (event) {
+    if(event.target.className === 'delete'){
+        const li = event.target.parentElement;
+        list.removeChild(li);
+    }
+});
+
+
+
+/*
 var h2 = document.querySelector('#book-list h2');
 
 console.log(h2);
@@ -21,7 +34,8 @@ const link = document.querySelector('#page-banner a');
 link.addEventListener('click', function (e) {
     e.preventDefault();
     console.log('navigation to ', e.target.textContent, ' was prevented');
-})
+});
+*/
 
 /*
 const bookList = document.querySelector('#book-list');
