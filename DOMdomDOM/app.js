@@ -8,6 +8,14 @@ list.addEventListener('click', function (event) {
     }
 });
 
+// add books
+const addForm = document.forms['add-book'];
+
+addForm.addEventListener('submit', function (event) {
+    event.preventDefault();
+    const value = addForm.querySelector('input[type="text"]').value;
+    console.log(value);
+});
 
 
 /*
