@@ -14,7 +14,28 @@ const addForm = document.forms['add-book'];
 addForm.addEventListener('submit', function (event) {
     event.preventDefault();
     const value = addForm.querySelector('input[type="text"]').value;
-    console.log(value);
+
+    //nowe elementy
+
+    const li = document.createElement('li');
+    const bookName = document.createElement('span');
+    const deleteBtn = document.createElement('span');
+
+    // treść dodanie
+    deleteBtn.textContent = 'delete';
+    bookName.textContent = value;
+
+    //add classes
+    bookName.classList.add('name');
+    deleteBtn.classList.add('delete');
+
+    //append to document
+    // ważna jest kolejność dodawania
+
+    li.appendChild(bookName);
+    li.appendChild(deleteBtn);
+    list.appendChild(li);
+
 });
 
 
