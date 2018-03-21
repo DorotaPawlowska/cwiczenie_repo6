@@ -3,6 +3,8 @@
     <head>
         <meta charset="UTF-8">
         <title>tutorial</title>
+        <script src="app.js"></script>
+
         <link href="style.css" type="text/css" rel="stylesheet">
     </head>
     <body>
@@ -44,8 +46,29 @@
                 <input type="text" placeholder="Add a book...">
                 <button>Add</button>
             </form>
+
+            <div id="tabbed-content">
+                <ul class="tabs">
+                    <li data-target="#about" class="active">About</li>
+                    <li data-target="#contact">Contact</li>
+                </ul>
+                <div class="panel active" id="about">
+                    <p>lorem ipsum</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Aliquam aspernatur aut autem culpa cumque, debitis doloribus
+                        dolorum ducimus expedita, modi mollitia nihil officia quaerat
+                        qui quos repellat sapiente soluta temporibus.</p>
+                </div>
+                <div class="panel" id="contact">
+                    <p>kontakt </p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Aliquam aspernatur aut autem culpa cumque, debitis doloribus
+                        dolorum ducimus expedita, modi mollitia nihil officia quaerat
+                        qui quos repellat sapiente soluta temporibus.</p>
+                </div>
+            </div>
+
         </div>
-        <script src="app.js"></script>
 
     </body>
 </html>
